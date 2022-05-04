@@ -1,11 +1,9 @@
-package no.nav.medlemskap.sykepenger.lytter
+package no.nav.medlemskap.sykepenger.paragrafikode
 
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.flow.launchIn
-import no.nav.medlemskap.sykepenger.paragrafikode.MedlemskapVurdertConsumer
 import no.nav.medlemskap.sykepenger.paragrafikode.config.Environment
-import no.nav.medlemskap.sykepenger.paragrafikode.naisLiveness
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
